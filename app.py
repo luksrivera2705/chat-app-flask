@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, send_from_directory
 from flask_sqlalchemy import SQLAlchemy
 import os
-
+# Cambio forzado para reconstruir
 app = Flask(__name__)
 
 # Render pone DATABASE_URL en variables de entorno
